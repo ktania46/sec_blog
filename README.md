@@ -1,1 +1,1 @@
-# sec_blog
+# 2nd site as example
