@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/sec_blog/jekyll/update/2020/09/19/welcome-to-jekyll.html</loc>
+<lastmod>2020-09-19T18:02:43+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sec_blog/about/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/sec_blog/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/sec_blog/prerequisites1/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/sec_blog/steps/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/sec_blog/summary/</loc>
+</url>
+</urlset>
