@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<!--
+    Basically Basic Jekyll Theme 1.4.4
+    Copyright 2017-2018 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+    
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Prerequisites | Automation for OpenShift on IBM Power Platform</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Prerequisites" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<link rel="canonical" href="http://localhost:4000/sec_blog/prerequisites1/" />
+<meta property="og:url" content="http://localhost:4000/sec_blog/prerequisites1/" />
+<meta property="og:site_name" content="Automation for OpenShift on IBM Power Platform" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"http://localhost:4000/sec_blog/prerequisites1/","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Prerequisites","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/sec_blog/assets/stylesheets/main.css">
+  
+
+  
+</head>
+
+
+  <body class="layout--page prerequisites">
+
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+
+    <div class="sidebar-toggle-wrapper">
+      
+
+      <button class="toggle navicon-button larr" type="button">
+        <span class="toggle-inner">
+          <span class="sidebar-toggle-label visually-hidden">Menu</span>
+          <span class="navicon"></span>
+        </span>
+      </button>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+      <div class="inner">
+        <nav id="primary-nav" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <ul id="menu-main-navigation" class="menu">
+    <!-- Home link -->
+    <li class="menu-item">
+      <a href="/sec_blog/" itemprop="url">
+        <span itemprop="name">Home</span>
+      </a>
+    </li>
+
+    <!-- site.pages links -->
+    
+    
+
+    
+      
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/sec_blog/about/" itemprop="url">
+            <span itemprop="name">Features</span>
+          </a>
+        </li>
+      
+    
+      
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/sec_blog/prerequisites1/" itemprop="url">
+            <span itemprop="name">Prerequisites</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/sec_blog/steps/" itemprop="url">
+            <span itemprop="name">Steps</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/sec_blog/summary/" itemprop="url">
+            <span itemprop="name">Summary</span>
+          </a>
+        </li>
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+  </ul>
+</nav>
+
+        <ul class="contact-list">
+  
+
+  
+
+  
+
+  <li>
+    
+  </li>
+</ul>
+
+      </div>
+    </div>
+
+    <div class="canvas">
+      <div class="wrapper">
+        
+
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      
+        <p class="site-title">
+          <a href="/sec_blog/">
+            
+            <span>Automation for OpenShift on IBM Power Platform</span>
+          </a>
+        </p>
+      
+    </div>
+  </div>
+</header>
+
+        <div class="initial-content">
+          <header class="intro">
+  
+
+  <div class="inner">
+    <div class="intro-text">
+      <h1 id="page-title" class="intro-title">Prerequisites
+</h1>
+      
+
+      
+
+      
+
+      
+    </div>
+  </div>
+</header>
+
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        <ul>
+  <li>
+    <p>Git: Please refer to the <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">link</a> for instructions on installing the latest Git.</p>
+  </li>
+  <li>
+    <p><a href="https://golang.org/doc/install">Go</a> 1.13 (to build the provider plugin)</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/ocp-power-automation/ocp4-upi-kvm/blob/master/docs/prepare-images.md">Preparing Images for Power</a></p>
+  </li>
+  <li>
+    <p>docker v17.03+, podman v1.2.0+, or buildah v1.7+</p>
+  </li>
+  <li>
+    <p>Access to a cluster based on Kubernetes v1.12.0+</p>
+  </li>
+  <li>
+    <p>Access to a container registry</p>
+  </li>
+  <li>
+    <p>Public internet connection for all the nodes to download the playbooks and images as part of the setup process.
+VM configs for OpenShift nodes that will be deployed with RHCOS image.</p>
+  </li>
+  <li>
+    <p>Bootstrap, Master - 4 vCPUs, 16GB RAM, 120 GB Disk
+This config is suitable for majority of the scenarios</p>
+  </li>
+  <li>
+    <p>Worker - 4 vCPUs, 16GB RAM, 120 GB Disk
+Increase worker vCPUs, RAM and Disk based on application requirements</p>
+  </li>
+</ul>
+
+<p>Following is the recommended VM config for the helper node that will be deployed with RHEL 8.0 (or later) image.</p>
+
+<ul>
+  <li>Helper node (bastion) - 2vCPUs, 16GB RAM, 200 GB Disk</li>
+</ul>
+
+
+      </div>
+    </article>
+  </div>
+</main>
+
+        </div>
+
+        <div class="search-content">
+          <div class="inner">
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="site-footer">
+  <div class="inner">
+    <div class="copyright">
+      
+        <p>&copy; 2020 Automation for OpenShift on IBM Power Platform.</p>
+      
+    </div>
+  </div>
+</footer>
+
+    
+
+<script async src="/sec_blog/assets/javascripts/main.js"></script>
+
+
+
+
+  </body>
+
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!--
+    Basically Basic Jekyll Theme 1.4.4
+    Copyright 2017-2018 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+    
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Introduction | Automation for OpenShift on IBM Power Platform</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Introduction" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Red Hat and IBM Power teams have been working together on OpenShift since 2018 with the initial release of OpenShift 3.11 on Power. Through this continuous collaboration and effort between IBM and Red Hat, improvements on Power have been made such as the support of IBM PowerVM with OpenShift to enable our Power Enterprise systems. OpenShift on IBM Power Systems takes advantage of the Hybrid Cloud Flexibility, as a result of it, OpenShift can be deployed on PowerVM or Red Hat KVM (development) on Power scale-out servers to exploit the 3.2x container density advantage per core of the POWER9 multi-threaded architecture. Automation for OpenShift on IBM Power Architecture can make things easier and much faster for the end user, making the entire process hasslefree allowing Power clients to exploit the innovative new capabilities.A deployment host is any virtual or physical host that is typically required for the installation of Red Hat OpenShift. The Red Hat OpenShift installation assumes that many, if not all the external services like DNS, load balancing, HTTP server, DHCP are already available in an existing data center and therefore there is no need to duplicate them on a node in the Red Hat OpenShift cluster. Master node, worker node and bootstrap can run on top of PowerVC, PowerVM, Red Hat Virtualization, KVM or run bare metal environments. You can manage trust configuration directly on each node or manage the files on a separate host by distributing them to the appropriate nodes using Ansible." />
+<meta property="og:description" content="Red Hat and IBM Power teams have been working together on OpenShift since 2018 with the initial release of OpenShift 3.11 on Power. Through this continuous collaboration and effort between IBM and Red Hat, improvements on Power have been made such as the support of IBM PowerVM with OpenShift to enable our Power Enterprise systems. OpenShift on IBM Power Systems takes advantage of the Hybrid Cloud Flexibility, as a result of it, OpenShift can be deployed on PowerVM or Red Hat KVM (development) on Power scale-out servers to exploit the 3.2x container density advantage per core of the POWER9 multi-threaded architecture. Automation for OpenShift on IBM Power Architecture can make things easier and much faster for the end user, making the entire process hasslefree allowing Power clients to exploit the innovative new capabilities.A deployment host is any virtual or physical host that is typically required for the installation of Red Hat OpenShift. The Red Hat OpenShift installation assumes that many, if not all the external services like DNS, load balancing, HTTP server, DHCP are already available in an existing data center and therefore there is no need to duplicate them on a node in the Red Hat OpenShift cluster. Master node, worker node and bootstrap can run on top of PowerVC, PowerVM, Red Hat Virtualization, KVM or run bare metal environments. You can manage trust configuration directly on each node or manage the files on a separate host by distributing them to the appropriate nodes using Ansible." />
+<link rel="canonical" href="http://localhost:4000/sec_blog/jekyll/update/2020/09/19/welcome-to-jekyll.html" />
+<meta property="og:url" content="http://localhost:4000/sec_blog/jekyll/update/2020/09/19/welcome-to-jekyll.html" />
+<meta property="og:site_name" content="Automation for OpenShift on IBM Power Platform" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-09-19T18:02:43+05:30" />
+<script type="application/ld+json">
+{"dateModified":"2020-09-19T18:02:43+05:30","datePublished":"2020-09-19T18:02:43+05:30","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/sec_blog/jekyll/update/2020/09/19/welcome-to-jekyll.html"},"url":"http://localhost:4000/sec_blog/jekyll/update/2020/09/19/welcome-to-jekyll.html","description":"Red Hat and IBM Power teams have been working together on OpenShift since 2018 with the initial release of OpenShift 3.11 on Power. Through this continuous collaboration and effort between IBM and Red Hat, improvements on Power have been made such as the support of IBM PowerVM with OpenShift to enable our Power Enterprise systems. OpenShift on IBM Power Systems takes advantage of the Hybrid Cloud Flexibility, as a result of it, OpenShift can be deployed on PowerVM or Red Hat KVM (development) on Power scale-out servers to exploit the 3.2x container density advantage per core of the POWER9 multi-threaded architecture. Automation for OpenShift on IBM Power Architecture can make things easier and much faster for the end user, making the entire process hasslefree allowing Power clients to exploit the innovative new capabilities.A deployment host is any virtual or physical host that is typically required for the installation of Red Hat OpenShift. The Red Hat OpenShift installation assumes that many, if not all the external services like DNS, load balancing, HTTP server, DHCP are already available in an existing data center and therefore there is no need to duplicate them on a node in the Red Hat OpenShift cluster. Master node, worker node and bootstrap can run on top of PowerVC, PowerVM, Red Hat Virtualization, KVM or run bare metal environments. You can manage trust configuration directly on each node or manage the files on a separate host by distributing them to the appropriate nodes using Ansible.","headline":"Introduction","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/sec_blog/assets/stylesheets/main.css">
+  
+
+  
+</head>
+
+
+  <body class="layout--post introduction">
+
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+
+    <div class="sidebar-toggle-wrapper">
+      
+
+      <button class="toggle navicon-button larr" type="button">
+        <span class="toggle-inner">
+          <span class="sidebar-toggle-label visually-hidden">Menu</span>
+          <span class="navicon"></span>
+        </span>
+      </button>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+      <div class="inner">
+        <nav id="primary-nav" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <ul id="menu-main-navigation" class="menu">
+    <!-- Home link -->
+    <li class="menu-item">
+      <a href="/sec_blog/" itemprop="url">
+        <span itemprop="name">Home</span>
+      </a>
+    </li>
+
+    <!-- site.pages links -->
+    
+    
+
+    
+      
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/sec_blog/about/" itemprop="url">
+            <span itemprop="name">Features</span>
+          </a>
+        </li>
+      
+    
+      
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/sec_blog/prerequisites1/" itemprop="url">
+            <span itemprop="name">Prerequisites</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/sec_blog/steps/" itemprop="url">
+            <span itemprop="name">Steps</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/sec_blog/summary/" itemprop="url">
+            <span itemprop="name">Summary</span>
+          </a>
+        </li>
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+  </ul>
+</nav>
+
+        <ul class="contact-list">
+  
+
+  
+
+  
+
+  <li>
+    
+  </li>
+</ul>
+
+      </div>
+    </div>
+
+    <div class="canvas">
+      <div class="wrapper">
+        
+
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      
+        <p class="site-title">
+          <a href="/sec_blog/">
+            
+            <span>Automation for OpenShift on IBM Power Platform</span>
+          </a>
+        </p>
+      
+    </div>
+  </div>
+</header>
+
+        <div class="initial-content">
+          <header class="intro">
+  
+
+  <div class="inner">
+    <div class="intro-text">
+      <h1 id="page-title" class="intro-title">Introduction
+</h1>
+      
+
+      
+        
+
+        <p class="entry-meta">
+          <span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2020-09-19T18:02:43+05:30">September 19, 2020</time></span>
+        </p>
+      
+
+      
+
+      
+    </div>
+  </div>
+</header>
+
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        <p>Red Hat and IBM Power teams have been working together on OpenShift since 2018 with the initial release of OpenShift 3.11 on Power. Through this continuous collaboration and effort between IBM and Red Hat, improvements on Power have been made such as the support of IBM PowerVM with OpenShift to enable our Power Enterprise systems. OpenShift on IBM Power Systems takes advantage of the Hybrid Cloud Flexibility, as a result of it, OpenShift can be deployed on PowerVM or Red Hat KVM (development) on Power scale-out servers to exploit the 3.2x container density advantage per core of the POWER9 multi-threaded architecture. Automation for OpenShift on IBM Power Architecture can make things easier and much faster for the end user, making the entire process hasslefree allowing Power clients to exploit the innovative new capabilities.A deployment host is any virtual or physical host that is typically required for the installation of Red Hat OpenShift. The Red Hat OpenShift installation assumes that many, if not all the external services like DNS, load balancing, HTTP server, DHCP are already available in an existing data center and therefore there is no need to duplicate them on a node in the Red Hat OpenShift cluster. Master node, worker node and bootstrap can run on top of PowerVC, PowerVM, Red Hat Virtualization, KVM or run bare metal environments. You can manage trust configuration directly on each node or manage the files on a separate host by distributing them to the appropriate nodes using Ansible.</p>
+
+<p>Ansible is an automation tool used to configure systems, deploy software, and perform rolling updates. Ansible includes support for container-native virtualization, and Ansible modules enable you to automate cluster management tasks such as template, persistent volume claim, and virtual machine operations. Ansible provides a way to automate container-native virtualization management, which you can also accomplish by using the <code class="language-plaintext highlighter-rouge">oc</code> CLI tool or APIs. Ansible is unique because it allows you to integrate KubeVirt modules with other Ansible modules.</p>
+
+<p>Playbooks are Ansible’s configuration, deployment, and orchestration language. They can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process. If Ansible modules are the tools in your workshop, playbooks are your instruction manuals, and your inventory of hosts are your raw material.
+At a basic level, <a href="https://github.com/ocp-power-automation/ocp4-playbooks">playbooks</a> can be used to manage configurations of and deployments to remote machines. At a more advanced level, they can sequence multi-tier rollouts involving rolling updates, and can delegate actions to other hosts, interacting with monitoring servers and load balancers along the way.
+Playbooks are designed to be human-readable and are developed in a basic text language. There are multiple ways to organize playbooks and the files they include.
+The Playbooks are used for installation of OCP on Power and other post install customizations</p>
+
+<p><a href="https://www.terraform.io/docs/providers/index.html">Terraform</a> is an Open Source software that is developed by HashiCorp that enables predictable and consistent provisioning of IBM Cloud platform, classic infrastructure, and VPC infrastructure resources by using a high-level scripting language. Terraform is used to create, manage, and update infrastructure resources such as physical machines, VMs, network switches, containers, and more. Terraform can be used to automate IBM Cloud resource provisioning, rapidly build complex, multi-tier cloud environments, and enable Infrastructure as Code (IaC).</p>
+
+<p>A lot of OpenShift 4 specific jargon is used throughout this doc, so please visit the <a href="https://docs.openshift.com/container-platform/latest">official documentation page</a> to get familiar with OpenShift 4.</p>
+
+
+      </div>
+      
+    </article>
+  </div>
+</main>
+
+        </div>
+
+        <div class="search-content">
+          <div class="inner">
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="site-footer">
+  <div class="inner">
+    <div class="copyright">
+      
+        <p>&copy; 2020 Automation for OpenShift on IBM Power Platform.</p>
+      
+    </div>
+  </div>
+</footer>
+
+    
+
+<script async src="/sec_blog/assets/javascripts/main.js"></script>
+
+
+
+
+  </body>
+
+</html>
