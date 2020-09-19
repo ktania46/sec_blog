@@ -1,0 +1,6 @@
+---
+layout: page
+title: Summary
+permalink: /summary/
+---
+Automation capabilities empower to work more effectively to create enhanced and personalized customer experiences.Kubernetes makes it easier to configure, deploy, and manage containerized applications. Compatible with all types of projects small and large to deliver better end-to-end customer journeys with improved governing of content and processes.Manual installation of Openshift on Power can be cumbersome and may not always produce the desired results. At the same time it can be time consuming and cost ineffective.Automation for OpenShift on IBM Power Platform is an initiative to make deployment of Power servers on PowerVM or KVM in an automated way.  Both ocp4-upi-powervm and ocp4-upi-kvm re-uses the ocp4 helpernode ansible playbook to provide end-to-end automation for OCP 4.x deployment on Power servers. Aim is to simplify deployment of required services for OpenShift 4.x UPI (User Provisioned Infrastructure) based on the deployments on Power.
